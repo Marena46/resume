@@ -178,6 +178,9 @@ body h1 {
   line-height: 20px;
   color: #ffffff;
 }
+.additional__info__text ul {
+  list-style-type: square;
+}
 .additional__info__ico {
   text-align: center;
   margin-bottom: 30px;
