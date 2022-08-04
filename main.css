@@ -307,6 +307,8 @@ body h1 {
   }
   .contact {
     margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
   }
   .contact__ico {
     display: flex;
@@ -314,18 +316,24 @@ body h1 {
     margin-right: 1%;
   }
   .contact__phone {
-padding-top: 15px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
   }
   .contact__phone a {
     justify-content: center;
     font-style: normal;
     font-weight: 800;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 25px;
+    line-height: 25px;
     color: #ffffff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.51);
   }
   .contact__phone img {
     display: none;
+  }
+  .contact__block {
+    display: inline-block;
   }
 }
